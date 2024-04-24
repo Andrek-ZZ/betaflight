@@ -107,7 +107,7 @@ void vtxDecrementChannel(void)
 void vtxUpdateActivatedChannel(void)
 {
     if (ARMING_FLAG(ARMED)) {
-        locked = 1;
+        locked = 0;
     }
 
     if (vtxCommonDevice()) {
